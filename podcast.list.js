@@ -31,6 +31,8 @@
     })
   )];
 
+  // Expose results for later use in the console or other scripts.
+  globalThis.podcastFeeds = out;
   console.log(out);
   // In Chrome/Edge DevTools:
   copy(out.join('\n'));
