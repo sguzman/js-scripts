@@ -35,5 +35,4 @@
   window.bigList = out;
   console.log(out);
   // In Chrome/Edge DevTools:
-  copy(out.join('\n'));
 })();
